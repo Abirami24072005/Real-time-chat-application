@@ -1,0 +1,147 @@
+/* =========================
+   General Page Styles
+   ========================= */
+body {
+  font-family: Arial, sans-serif;   /* Font for entire app */
+  background-color: #f4f4f4;        /* Light gray background */
+  margin: 0;                        /* Remove default margin */
+}
+
+/* Root div where React mounts */
+#root {
+  display: flex;                    /* Enable flexbox */
+  justify-content: center;          /* Center horizontally */
+  align-items: center;              /* Center vertically */
+  height: 100vh;                    /* Full viewport height */
+  width: 100%;
+}
+
+/* =========================
+   Chat Container
+   ========================= */
+.chat-container {
+  width: 400px;                     /* Fixed width */
+  max-width: 90%;                   /* Responsive on small screens */
+  background: white;                /* White chat box */
+  border-radius: 10px;              /* Rounded corners */
+  overflow: hidden;                 /* Hide overflow */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow */
+  display: flex;
+  flex-direction: column;           /* Stack children vertically */
+}
+
+/* =========================
+   Header Styles
+   ========================= */
+.chat-header {
+  background: #0078ff;              /* Blue header */
+  color: white;                     /* White text */
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Header after user joins */
+.chat-header.joined {
+  display: flex;                    /* Horizontal layout */
+  align-items: center;
+  justify-content: space-between;   /* Space between text & button */
+}
+
+/* Username input wrapper */
+.username-input {
+  background-color: transparent;
+  padding-bottom: 1em;
+}
+
+/* =========================
+   Messages Area
+   ========================= */
+.message-list {
+  display: flex;
+  flex: auto;                       /* Take remaining space */
+  overflow: auto;                   /* Scrollable */
+  position: relative;
+  flex-direction: column-reverse;   /* New messages appear at bottom */
+  height: 400px;
+}
+
+/* =========================
+   Individual Message
+   ========================= */
+.message {
+  background: #e3f2fd;              /* Light blue bubble */
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  flex-direction: column;
+  width: fit-content;               /* Wrap content */
+  margin: 0.6em 1em;
+}
+
+/* System messages (join/leave) */
+.message.system {
+  align-self: center;               /* Center aligned */
+}
+
+/* Messages sent by current user */
+.message.me {
+  background: #0078ff;              /* Dark blue bubble */
+  flex-direction: row;
+  align-self: flex-end;             /* Right side */
+  color: white;
+  border-top-right-radius: 0;       /* Chat bubble effect */
+}
+
+/* =========================
+   Online Users Section
+   ========================= */
+.users {
+  background: #f0f0f0;              /* Light gray */
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* =========================
+   Input Area
+   ========================= */
+.chat-input {
+  display: flex;
+  padding: 10px;
+  background: white;
+  border-top: 1px solid #ccc;
+}
+
+/* Text input fields */
+input {
+  flex: 1;                          /* Take full width */
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* General button styles */
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Send button */
+.chat-input button {
+  background: #0078ff;
+  color: white;
+}
+
+/* Hover effect for send button */
+.chat-input button:hover {
+  background: #0056b3;
+}
