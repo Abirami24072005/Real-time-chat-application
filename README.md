@@ -90,3 +90,14 @@ Secure and scalable architecture
 
 This Real-Time Chat Application is a practical implementation of modern web development concepts such as real-time communication, client-server architecture, and database persistence. It demonstrates how frontend and backend technologies can work together seamlessly to create an interactive and reliable communication platform. The project is suitable for academic submissions and serves as a strong foundation for building advanced chat systems with features like private messaging, authentication, and media sharing in the future.
 
+#OUTPUT IMAGE
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f42729b7-ac79-4f0b-9043-3ecafb2e8bf7" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3cb89892-5879-484f-b200-ea2f6ef05f09" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9eb1ae7e-7608-408b-bbaf-3bff49528ac1" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b939f0db-5159-47f7-921f-5e123b306a1f" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9f1ef1b5-04d7-483c-aacf-0bcf889f4221" />
