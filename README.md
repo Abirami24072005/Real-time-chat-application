@@ -18,7 +18,7 @@ The Real-Time Chat Application is a full-stack web-based communication system de
 
 This application allows users to join a chat room by entering a username, send and receive messages in real time, view online users, and see system notifications when users join or leave the chat. Unlike basic chat applications where messages are stored only in memory, this project integrates a database system so that messages are stored permanently and can be retrieved even after refreshing the page or restarting the server.
 
-Platform Used
+#Platform Used:
 
 This project is developed and executed on the Web Platform, using both frontend and backend technologies. The backend runs on a Node.js server, while the frontend is built using React.js. The application uses MongoDB as the database to store chat messages permanently.
 
@@ -32,8 +32,9 @@ Frontend Platform: Web Browser (Google Chrome, Firefox, Edge, etc.)
 
 Database Platform: MongoDB Community Edition
 
-Technologies Used
-Frontend Technologies
+#Technologies Used:
+
+#Frontend Technologies:
 
 React.js: Used to build a dynamic and responsive user interface.
 
@@ -43,7 +44,7 @@ CSS3: Used for styling the chat interface, message layout, and responsiveness.
 
 Socket.IO Client: Enables real-time communication between the frontend and backend.
 
-Backend Technologies
+#Backend Technologies:
 
 Node.js: Provides the runtime environment for executing JavaScript on the server.
 
@@ -53,13 +54,13 @@ Socket.IO: Handles real-time, bidirectional communication between users.
 
 CORS: Allows secure communication between frontend and backend running on different ports.
 
-Database
+#Database:
 
 MongoDB: A NoSQL database used to store chat messages as JSON documents.
 
 Mongoose: An Object Data Modeling (ODM) library that simplifies database operations and schema management.
 
-About the Project
+#About the Project:
 
 The Real-Time Chat Application works on a client-server architecture. When a user opens the application, they are prompted to enter a username. Once the user joins, a WebSocket connection is established between the client and the server using Socket.IO. This persistent connection allows messages to be transmitted instantly without refreshing the page.
 
@@ -69,7 +70,7 @@ The application also maintains a list of currently online users. Whenever a user
 
 To enhance usability, the application stores the username in the browser’s local storage. This allows users to refresh the page without being asked to re-enter their username. After refreshing, the user is automatically reconnected to the chat and the message history is loaded from the database.
 
-Features of the Project
+#Features of the Project:
 
 Real-time message delivery without page refresh
 
@@ -85,7 +86,7 @@ Responsive and user-friendly interface
 
 Secure and scalable architecture
 
-Conclusion
+#Conclusion:
 
 This Real-Time Chat Application is a practical implementation of modern web development concepts such as real-time communication, client-server architecture, and database persistence. It demonstrates how frontend and backend technologies can work together seamlessly to create an interactive and reliable communication platform. The project is suitable for academic submissions and serves as a strong foundation for building advanced chat systems with features like private messaging, authentication, and media sharing in the future.
 
