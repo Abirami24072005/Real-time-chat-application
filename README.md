@@ -101,3 +101,4 @@ This Real-Time Chat Application is a practical implementation of modern web deve
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b939f0db-5159-47f7-921f-5e123b306a1f" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9f1ef1b5-04d7-483c-aacf-0bcf889f4221" />
+                                #This image shows message history
